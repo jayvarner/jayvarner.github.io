@@ -4,22 +4,10 @@ title:  "First Week as a Grad Student"
 date:   2016-05-22 08:23:41 -0500
 categories: school
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+This is the end of my first week as a grad student working on a master’s degree in information architecture with a concentration in user experience design. My biggest struggle this week was reacting to[Tony Faddell’s TED talk](https://www.ted.com/talks/tony_fadell_the_first_secret_of_design_is_noticing?language=en) and coming up with “something in everyday life that you and other people have become habituated”.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+I complain about things all the time. When complaining, my new joke with my spouse is “Can you imagine how insufferable I’m going to be when I have a master’s in this?” My struggle with the question is have I “become habituated” if I still complain about it?
 
-Jekyll also offers powerful support for code snippets:
+I think the answer is no. So my struggle to come up with an example, despite complaining about everything, pretty much sums up what it is to “become habituated” and the importance of UX design. I’m so habituated, I don’t even realize it.
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+In hindsight, I should have written about book jackets. They are useless.
