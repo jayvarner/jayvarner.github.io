@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "First Week as a Grad Student"
 date:   2016-03-08 08:23:41 -0500
 categories: jekyll update
 ---
