@@ -3,6 +3,7 @@ layout: post
 title:  "First Week as a Grad Student"
 date:   2016-05-22 08:23:41 -0500
 categories: school
+permalink:   :categories/:year/:month/:day/:slug
 ---
 This is the end of my first week as a grad student working on a master’s degree in information architecture with a concentration in user experience design. My biggest struggle this week was reacting to[Tony Faddell’s TED talk](https://www.ted.com/talks/tony_fadell_the_first_secret_of_design_is_noticing?language=en) and coming up with “something in everyday life that you and other people have become habituated”.
 
