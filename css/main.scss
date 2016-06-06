@@ -48,8 +48,13 @@ $on-laptop:        800px;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
+        "foundation/components/grid",
         "mixins",
         "base",
         "layout",
         "syntax-highlighting"
 ;
+
+.with-image img {
+    max-width: 65%;
+}

@@ -12,17 +12,10 @@ url:        	  ""
 # Owner/author information
 owner:
   name:           Jay Varner
-  # avatar:         hmfaysal.jpg
-  # email:          hmfaysal@alum.mit.edu
-  # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
   description:    Full Stack Sofware Engineer, master's student in user experience design
   # Social networking links used in footer. Update and remove as you like.
   twitter:        jayvarner
-  # facebook:       hmfaysal
   github:         jayvarner
-  # instagram:      hmfaysal
-  # For Google Authorship https://plus.google.com/authorship
-  # google_plus:    https://plus.google.com/u/0/102602916593522619858
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:   UA-78194842-1
@@ -37,121 +30,53 @@ links:
     url: /
     external: false
     icon: home
-  # - title: Featured Posts
-  #   url: /featured
-  # - title: Categories
-  #   url: /categories
   - title: About
     url: /about
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    America/New_York
 future:      true
-highlighter: rouge
-markdown:    kramdown
+# highlighter: rouge
+# markdown:    redcarpet
 paginate:    5
 paginate_path: "page:num"
+
+# kramdown:
+#     input: GFM
+
+
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink:   :year/:month/:day/:slug
 
-kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  enable_coderay: false
+# syntax_highlighter_opts:
+#     # Rouge Options › https://github.com/jneen/rouge#full-options
+#     css_class: 'highlight'
+#     #line_numbers: true # bad idea, spans don't need linenos and would inherit this option
+#     span:
+#       line_numbers: false
+#     block:
+#       line_numbers: true
+#       start_line: 1
 
-  coderay:
-    coderay_line_numbers:
-    coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: class
+# kramdown:
+#     input: GFM
+#     auto_ids: true
+#     footnote_nr: 1
+#     entity_output: as_char
+#     toc_levels: 1..6
+
+markdown: kramdown
+highlighter: rouge
 
 prose:
   rooturl: '_posts'
   siteurl: 'http://jayvarner.io'
   relativeLinks: 'http://jayvarner.io/links.jsonp'
   media: 'images'
-  metadata:
-    _posts:
-      - name: "published"
-        field:
-          label: "Published"
-          element: "checkbox"
-          value: "true"
-      - name: "layout"
-        field:
-          element: "hidden"
-          label: "Layout"
-          value: "post"
-      - name: "title"
-        field:
-          label: "Title"
-          element: "text"
-          value: "An Awesome Headline!"
-      - name: "description"
-        field:
-          element: "text"
-          label: "Description"
-          placeholder: "Enter Post Description"
-      - name: "headline"
-        field:
-          element: "text"
-          label: "beadline"
-          placeholder: "Enter Post Headline"
-      - name: "modified"
-        field:
-          element: "text"
-          label: "Has this page been modified?"
-          placeholder: "YYYY-MM-DD"
-      - name: "categories"
-        field:
-          element: "multiselect"
-          label: "Add categories"
-          placeholder: "Choose categories"
-          value: personal
-          options:
-            - name: "Personal"
-              value: personal
-            - name: "Engineering"
-              value: engineering
-            - name: "Physics"
-              value: physics
-            - name: "Psychology"
-              value: psychology
-            - name: "Interesting"
-              value: interesting
-            - name: "Web-Development"
-              value: webdevelopment
-          alterable: true
-      - name: "tags"
-        field:
-          element: "text"
-          label: "Tags"
-          placeholder: "Enter tags, separated by spaces"
-      - name: "imagefeature"
-        field:
-          element: "text"
-          label: "Featured Image"
-          placeholder: "somefile.jpg"
-      - name: "mathjax"
-        field:
-          element: "checkbox"
-          label: "MathJax"
-          value: false
-      - name: "featured"
-        field:
-          element: "checkbox"
-          label: "Featured?"
-          value: false
-      - name: "comments"
-        field:
-          element: "checkbox"
-          label: "Comments"
-          value: false
 
-gems: [jekyll-paginate]
+gems:
+    - jekyll-paginate
+    - zurb-foundation
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Gemfile", "Capfile", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]

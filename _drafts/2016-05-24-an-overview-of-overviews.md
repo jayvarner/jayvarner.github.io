@@ -11,7 +11,7 @@ We’re going to walk through what is happening using two command line tools; [`
 
 Let’s look at the exiftool output for a non-georeferenced TIFF. It’s really not that interesting. We’re providing here as a starting point.
 
-~~~
+```ruby
 $ exiftool Atlanta_1928_Sheet45.tif
 ExifTool Version Number         : 10.02
 File Name                       : Atlanta_1928_Sheet45.tif
@@ -76,7 +76,7 @@ Exif Image Width                : 5347
 Exif Image Height               : 6348
 Image Size                      : 5347x6348
 Megapixels                      : 33.9
-~~~
+```
 
 If we run it on a GeoTIFF, we see some extra stuff:
 

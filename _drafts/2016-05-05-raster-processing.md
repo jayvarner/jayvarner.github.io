@@ -41,9 +41,9 @@ When you georeference a scanned map, you select a [projection](https://en.wikipe
 
 
 #### Syntax
-{% highlight ruby %}
+~~~shell
 $ gdalwarp -s_srs <source ESPG> -t_srs <target EPSG> -r average </path/to/source/geo.tif> </path/to/new/geo.tif>
-{% endhighlight %}
+~~~
 
 #### Example
 ```
