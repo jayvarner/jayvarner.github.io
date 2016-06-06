@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Stacking a Position
+title: Staking a Position
 categories: [school, ux]
 date:   2016-06-05
 author: jayvarner
