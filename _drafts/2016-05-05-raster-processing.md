@@ -46,7 +46,7 @@ $ gdalwarp -s_srs <source ESPG> -t_srs <target EPSG> -r average </path/to/source
 ~~~
 
 #### Example
-```
+```shell
 $ gdalwarp -s_srs EPSG:2240 -t_srs EPSG:3857 -r average /data/atlanta_1928_sheet45.tif /data/tmp/atlanta_1928_sheet45.tif
 ```
 
@@ -56,12 +56,12 @@ Now you have a new GeoTIFF projected in Web Mercator and preserved your original
 GeoTIFFs are organized in 1 pixel strips by default. OpenStreetMap tiles are 256x256. We want to match OpenStreetMap. GeoTIFFs can be huge and it's not very nice to make users load large files when they don't have to. GDAL can also compress our GeoTIFFs. There are many compression algorithms, but we’re pretty happy with the results we’re getting with `JPEG`.
 
 ### Syntax
-```
+```shell
 $ gdal_translate -co 'TILED=YES/NO' -co 'BLOCKXSIZE=XXX' -co 'BLOCKYSIZE=XXX' -co 'COMPRESS=XYZ' </path/to/tmp.tif> </path/to/new.tif>
 ```
 
 ### Example
-```
+```shell
 $ gdal_translate -co 'TILED=YES' -co 'BLOCKXSIZE=256' -co 'BLOCKYSIZE=256' -co 'COMPRESS=JPEG' /data/tmp/atlanta_1928_sheet45.tif  /data/processed/atlanta_1928_sheet45.tif
 ```
 
@@ -69,12 +69,12 @@ $ gdal_translate -co 'TILED=YES' -co 'BLOCKXSIZE=256' -co 'BLOCKYSIZE=256' -co '
 Finally we add overviews. Remember when we said the main reason the map looked so bad was because there was just too much data? Well, overviews fix that. What happens here is we create internal, low resolution versions of our map. We will explain this in more depth in our follow up post.
 
 ### Syntax
-```
+```shell
 gdaladdo --config GDAL_TIFF_OVR_BLOCKSIZE XXX -r average </path/to/new.tif> levels
 ```
 
 ### Example
-```
+```shell
 gdaladdo --config GDAL_TIFF_OVR_BLOCKSIZE 256 -r average /data/processed/atlanta_1928_sheet45.tif 2 4 8 16 32
 ```
 

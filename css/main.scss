@@ -49,6 +49,7 @@ $on-laptop:        800px;
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "foundation/components/grid",
+        "foundation/components/visibility",
         "mixins",
         "base",
         "layout",
