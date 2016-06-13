@@ -4,7 +4,7 @@ title: Bringing Your Maps into Focus
 categories: [gdal, geospatial, gis, wms, webmapping]
 author: jayvarner
 ---
-## The Problem
+
 Here at Emory, we have some pretty cool old [maps of Atlanta](http://www.digitalgallery.emory.edu/luna/servlet/view/all/where/Atlanta?sort=title%2Cpage_no_%2Ccity%2Cdate) that we wanted to share in a more interactive way. But when we tried, the maps looked like looked this:
 
 <a class="jsbin-embed" href="http://jsbin.com/howitu/1/embed?output">JS Bin on jsbin.com</a>
@@ -34,49 +34,61 @@ Our other problem was that we used a coordinate system that is inappropriate for
 ## GDAL Can Solve those Problems
 "[GDAL](http://www.gdal.org/) is a translator library for raster and vector geospatial data formats..." This is our three step process.
 
-### Reproject
+### gdalwarp
+We use `gdalwarp` to reproject, resample, add internal tiling, and compress[^fewer]
+
+[^fewer]: In previous talks and workshops, we presented a three-step process where we did tiled and compressed the image using `gdal_translate`. While writing this post we realized a way to combine perform these actions with `gdalwarp`.
+
+#### Reporject
 When you georeference a scanned map, you select a [projection](https://en.wikipedia.org/wiki/Map_projection). For most GIS needs, you will want to use the projection appropriate for the chunk of Earth your map covers. However, for displaying maps on the web, you want to use EPSG:3857[^whcihcode]. To reproject a GeoTIFF you can use the `gdalwarp` command:
 
 [^whcihcode]:There is confusion between EPSG:3857 and EPSG:4326. For displaying raster data using something like Leaflet, OpenLayers, etc. 3857 will result in a much clearer image. Here are two links that helped us understand. [http://gis.stackexchange.com/a/48952](http://gis.stackexchange.com/a/48952) and [http://www.faqoverflow.com/gis/48949.html](http://www.faqoverflow.com/gis/48949.html)
 
+#### Resample
+`gdalwarp` offers various algorithms[^man] for [resampeling](https://en.wikipedia.org/wiki/Image_scaling). We suggest you try a few and see what works best. We’ve had good results using `average`, but many folks will suggest `near`.
 
-#### Syntax
+[^man]: You can see a list of available algorithms by running `man gdadalwarp` and reading the explanation of the `-r` option. `man` is short for manual. Use the space bar to scroll through the text and type `q` to quite the man page viewer. Or you can [read it here](http://www.gdal.org/gdalwarp.html).
+
+#### Tiling
+GeoTIFFs are organized in 1 pixel strips by default. OpenStreetMap tiles are 256x256. We match OpenStreetMap by adding internal tiles. We’ll go deeper into tiling in our follow up post.
+
+#### Compress
+GeoTIFFs can be huge and it's not very nice to make users load large files when they don't have to. GDAL can also compress our GeoTIFFs. There are many compression algorithms, but we’re pretty happy with the results we’re getting with `JPEG`.
+
+#### The Command
+Here is an example showing how to set all the options. Note the last argument is a path to a file the command will create. Your original GeoTIFF will be preserved.
+
+##### Syntax
 ~~~shell
-$ gdalwarp -s_srs <source ESPG> -t_srs <target EPSG> -r average </path/to/source/geo.tif> </path/to/new/geo.tif>
+$ gdalwarp -s_srs <source ESPG> -t_srs <target EPSG> -r average -co 'TILED=YES/NO' -co 'BLOCKXSIZE=XXX' -co 'BLOCKYSIZE=XXX' -co 'COMPRESS=XYZ' </path/to/source/geo.tif> </path/to/new/geo.tif>
 ~~~
 
-#### Example
-```shell
-$ gdalwarp -s_srs EPSG:2240 -t_srs EPSG:3857 -r average /data/atlanta_1928_sheet45.tif /data/tmp/atlanta_1928_sheet45.tif
-```
+##### Example
+~~~shell
+$ gdalwarp -s_srs EPSG:2240 -t_srs EPSG:3857 -r average /data/atlanta_1928_sheet45.tif processed/atlanta_1928_sheet45.tif
+~~~
 
 Now you have a new GeoTIFF projected in Web Mercator and preserved your original.
 
-### Tile and Compress
-GeoTIFFs are organized in 1 pixel strips by default. OpenStreetMap tiles are 256x256. We want to match OpenStreetMap. GeoTIFFs can be huge and it's not very nice to make users load large files when they don't have to. GDAL can also compress our GeoTIFFs. There are many compression algorithms, but we’re pretty happy with the results we’re getting with `JPEG`.
-
-### Syntax
-```shell
-$ gdal_translate -co 'TILED=YES/NO' -co 'BLOCKXSIZE=XXX' -co 'BLOCKYSIZE=XXX' -co 'COMPRESS=XYZ' </path/to/tmp.tif> </path/to/new.tif>
-```
-
-### Example
-```shell
-$ gdal_translate -co 'TILED=YES' -co 'BLOCKXSIZE=256' -co 'BLOCKYSIZE=256' -co 'COMPRESS=JPEG' /data/tmp/atlanta_1928_sheet45.tif  /data/processed/atlanta_1928_sheet45.tif
-```
-
 ### Add Overviews
-Finally we add overviews. Remember when we said the main reason the map looked so bad was because there was just too much data? Well, overviews fix that. What happens here is we create internal, low resolution versions of our map. We will explain this in more depth in our follow up post.
+We discuss overviews in greater depth in our follow post. Remember when we said the main reason the map looked so bad was because there was just too much data? Well, overviews fix that. What happens here is we create internal versions of our image that are smaller and lower resolution.
 
-### Syntax
-```shell
-gdaladdo --config GDAL_TIFF_OVR_BLOCKSIZE XXX -r average </path/to/new.tif> levels
-```
+We also have to tell it to keep our blocks, or internal tiles, at 256, the default is 128. You can set `GDAL_TIFF_OVR_BLOCKSIZE` as an [environment variable](https://help.ubuntu.com/community/EnvironmentVariables), or just override the default with the `--config` option.
 
-### Example
+##### Syntax
+~~~shell
+gdaladdo --config GDAL_TIFF_OVR_BLOCKSIZE XXX -r average </path/to/new.tif> levels (list of numbers)
+~~~
+
+##### Example
 ```shell
 gdaladdo --config GDAL_TIFF_OVR_BLOCKSIZE 256 -r average /data/processed/atlanta_1928_sheet45.tif 2 4 8 16 32
 ```
 
+## Automation
+Obviously if you have more than two maps to process, running these commands on each will get real old real fast. Fortunately, since GDAL is a command line tool, we can automate the whole process. There are wrappers for GDAL in many languages: [Python](https://pcjericks.github.io/py-gdalogr-cookbook/), [PHP](https://github.com/geonef/php5-gdal), [.Net](https://gdalnet.codeplex.com/), [Ruby](https://github.com/zhm/gdal-ruby) (though the Ruby gem is no longer maintained and not updated for GDAL 2), etc.
+
+We have [automated our process](https://github.com/zhm/gdal-ruby). It’s nice to just run a script and go enjoy some coffee while the computer does all the work.
+
 ## Conclusion
-…..
+This has been an evolving process. We found way to improve the process every time we prepared for a workshop, conference talk, or writing this post. We would love to hear any feedback or suggestions.
