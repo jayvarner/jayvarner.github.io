@@ -79,12 +79,12 @@ We also have to tell it to keep our blocks, or internal tiles, at 256, the defau
 
 ##### Syntax
 ~~~shell
-gdaladdo --config GDAL_TIFF_OVR_BLOCKSIZE XXX -r average </path/to/new.tif> levels (list of numbers)
+$ gdaladdo --config GDAL_TIFF_OVR_BLOCKSIZE XXX -r average </path/to/new.tif> levels (list of numbers)
 ~~~
 
 ##### Example
 ```shell
-gdaladdo --config GDAL_TIFF_OVR_BLOCKSIZE 256 -r average processed/atlanta_1928_sheet45.tif 2 4 8 16 32
+$ gdaladdo --config GDAL_TIFF_OVR_BLOCKSIZE 256 -r average processed/atlanta_1928_sheet45.tif 2 4 8 16 32
 ```
 
 ## Automation
