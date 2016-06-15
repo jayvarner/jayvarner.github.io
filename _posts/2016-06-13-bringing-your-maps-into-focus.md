@@ -83,9 +83,9 @@ $ gdaladdo --config GDAL_TIFF_OVR_BLOCKSIZE XXX -r average </path/to/new.tif> le
 ~~~
 
 ##### Example
-```shell
+~~~shell
 $ gdaladdo --config GDAL_TIFF_OVR_BLOCKSIZE 256 -r average processed/atlanta_1928_sheet45.tif 2 4 8 16 32
-```
+~~~
 
 ## Automation
 Obviously if you have more than two maps to process, running these commands on each will get real old real fast. Fortunately, since GDAL is a command line tool, we can automate the whole process. There are wrappers for GDAL in many languages: [Python](https://pcjericks.github.io/py-gdalogr-cookbook/), [PHP](https://github.com/geonef/php5-gdal), [.Net](https://gdalnet.codeplex.com/), [Ruby](https://github.com/zhm/gdal-ruby) (though the Ruby gem is no longer maintained and not updated for GDAL 2), etc.
