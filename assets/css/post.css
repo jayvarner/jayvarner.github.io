@@ -389,7 +389,8 @@ html, body, .notepad-post-container, .notepad-post-header {
 .notepad-page-title,
 .notepad-post-title-simple {
   margin: 0 auto;
-  width: 100%; }
+  width: 100%;
+}
   .notepad-page-title a,
   .notepad-post-title-simple a {
     color: black; }
@@ -429,7 +430,7 @@ html, body, .notepad-post-container, .notepad-post-header {
   .notepad-post-title-simple .notepad-post-meta-simple {
     text-align: center;
     padding-top: 5rem;
-    padding-bottom: 2.5rem; }
+    padding-bottom: 2.5rem;}
     .notepad-page-title .notepad-post-meta-simple h1,
     .notepad-post-title-simple .notepad-post-meta-simple h1 {
       padding: 0; }
@@ -445,12 +446,16 @@ html, body, .notepad-post-container, .notepad-post-header {
       .notepad-page-title .notepad-post-meta-simple,
       .notepad-post-title-simple .notepad-post-meta-simple {
         padding-top: 8.75rem;
-        padding-bottom: 5.625rem; } }
+        padding-bottom: 1.625rem; } }
     @media only screen and (min-width: 90em) {
       .notepad-page-title .notepad-post-meta-simple,
       .notepad-post-title-simple .notepad-post-meta-simple {
         padding-top: 10rem;
         padding-bottom: 6.25rem; } }
+.notepad-post-meta-simple blockquote {
+        width: 65%;
+        margin: auto;
+}
 
 /* Page conent */
 .notepad-page-content {

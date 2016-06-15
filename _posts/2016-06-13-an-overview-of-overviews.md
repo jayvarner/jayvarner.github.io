@@ -4,10 +4,9 @@ title: An Overview of Overviews
 tags: [gdal, geospatial, gis, wms, webmapping, geotiff]
 date: 2016-06-13 13:30:00
 authors: jayvarner
+note: ">_NOTE_: This post was originally published at [http://emory-libraries.github.io/](http://emory-libraries.github.io/) and was written with my colleague [Megan Slemons](http://digitalscholarship.emory.edu/about/people/slemons-megan.html)"
 ---
->_NOTE_: This post was originally published at [http://emory-libraries.github.io/](http://emory-libraries.github.io/) and was written with my colleague [Megan Slemons](http://digitalscholarship.emory.edu/about/people/slemons-megan.html)
 
-## Internal Tiling and Overviews
 In our previous post, [*Bringing Your Maps into Focus*](/2016/06/13/bringing-your-maps-into-focus), we covered a two-step process using [GDAL](http://gdal.org). There is a lot going on in the second step, internal tiling and overviews. These processes are hard to research and understand what’s really going on.
 
 We’re going to walk through what is happening using two command line tools; [`exiftool`](https://en.wikipedia.org/wiki/ExifTool) to inspect the GeoTIFF’s internal metadata and GDAL’s [`gdalinfo`](http://www.gdal.org/gdalsrsinfo.html). Installing both is not really a pain. For Mac there are [Homebrew formulas](http://brewformulas.org/) for each. Most Linux distros have packages, and there are [downloads](http://owl.phy.queensu.ca/~phil/exiftool/) for [Windows](https://trac.osgeo.org/osgeo4w/) .
