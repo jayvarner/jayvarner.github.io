@@ -11,3 +11,4 @@ Like I said, whenever I tried to design a page, something would be off. I could 
 
 In this week’s assignment, we had to give some examples of good and bad design. I really wanted to write about this house in my neighborhood that has two dormers. One is traditional, the other is modern. What articulate drew this out, looked at, and said “that looks good”? I actually sort of hope that the framers just didn’t have enough 2x4s to pitch the second one. They just made it flat and called it good. I didn’t write about it because that’s my critique. It’s not thoughtful. It’s not rooted in any theory. I know I’m right, and I know there has to be a design principle out there to back me up. I just don’t know what that is. For now, all I can say is “this is wrong.” I’m excited to be able to say “this is wrong because...”
 
+![not ok](https://www.dropbox.com/s/yju0pr3yyme06jv/Pearl_St_SE_-_Google_Maps.png?raw=1)
