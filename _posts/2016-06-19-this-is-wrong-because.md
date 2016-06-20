@@ -3,6 +3,7 @@ layout: post
 title: This is wrong because...
 categories: [school]
 author: jayvarner
+imagefeature: Pearl_St_SE_-_Google_Maps.png
 ---
 
 Throughout my years as a web developer, I was never happy with my attempts at design work. I had great results coding up Photoshop files  from designers, but I could never design something myself that looked right. Something was always off. I often “joke” that I have many design opinions, but no design skills. This week, in my [UXD](https://en.wikipedia.org/wiki/User_experience_design) grad program, I was excited to get into some design fundamentals. This week was layouts and grids. Next week is typography. I’m honestly excited about this.
