@@ -61,12 +61,12 @@ Here is an example showing how to set all the options. Note the last argument is
 
 ##### Syntax
 ~~~shell
-$ gdalwarp -s_srs <source ESPG> -t_srs <target EPSG> -r average -co 'TILED=YES/NO' -co 'BLOCKXSIZE=XXX' -co 'BLOCKYSIZE=XXX' -co 'COMPRESS=JPEG' </path/to/source/geo.tif> </path/to/new/geo.tif>
+$ gdalwarp -s_srs <source ESPG> -t_srs <target EPSG> -r average -co 'TILED=YES/NO' -co 'BLOCKXSIZE=XXX' -co 'BLOCKYSIZE=XXX' -co 'COMPRESS=ABC' </path/to/source/geo.tif> </path/to/new/geo.tif>
 ~~~
 
 ##### Example
 ~~~shell
-$ gdalwarp -s_srs EPSG:2240 -t_srs EPSG:3857 -r average -co 'TILED=YES/NO' -co 'BLOCKXSIZE=256' -co 'BLOCKYSIZE=256' -co 'COMPRESS=256' atlanta_1928_sheet45.tif processed/atlanta_1928_sheet45.tif
+$ gdalwarp -s_srs EPSG:2240 -t_srs EPSG:3857 -r average -co 'TILED=YES' -co 'BLOCKXSIZE=256' -co 'BLOCKYSIZE=256' -co 'COMPRESS=JPEG' atlanta_1928_sheet45.tif processed/atlanta_1928_sheet45.tif
 ~~~
 _NOTE_: We are creating a new copy of the GeoTIFF in a directory called "processed". You can save it where ever you like.
 
