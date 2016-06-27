@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Serifs
+title: This is wrong because...
 categories: [school]
 author: jayvarner
 imagefeature: Pearl_St_SE_-_Google_Maps.png
