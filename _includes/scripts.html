@@ -23,6 +23,7 @@
   ga('create', '{{ site.google_analytics }}', 'auto');
   ga('require', 'displayfeatures');
   ga('send', 'pageview');
+  $( document ).ready(function() {
   var VIEW_ID = "ga:122549723"
   var CLIENT_ID = "957449287621-fkij59c2bacsf6m6mcm4ritjgbfuvn20.apps.googleusercontent.com"
       // Set the discovery URL.
@@ -81,7 +82,7 @@
         });
     });
   }
-  $( document ).ready(function() {
+
       auth();
   });
 </script>
