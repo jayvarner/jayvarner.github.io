@@ -25,5 +25,64 @@
       ga('create', 'UA-78194842-1', 'auto');
       ga('send', 'pageview');
 
+  var VIEW_ID = "ga:122549723"
+  var CLIENT_ID = "957449287621-fkij59c2bacsf6m6mcm4ritjgbfuvn20.apps.googleusercontent.com"
+      // Set the discovery URL.
+  var DISCOVERY = 'https://analyticsreporting.googleapis.com/$discovery/rest';
+
+  // Set authorized scope.
+  var SCOPES = ['https://www.googleapis.com/auth/analytics.readonly'];
+
+
+    // Handles the authorization flow.
+    // `immediate` should be false when invoked from the button click.
+    var useImmdiate = fasle;
+    var authData = {
+      client_id: CLIENT_ID,
+      scope: SCOPES,
+      immediate: useImmdiate
+    };
+
+    gapi.auth.authorize(authData, function(response) {
+      var authButton = document.getElementById('auth-button');
+      if (response.error) {
+        authButton.hidden = false;
+      }
+      else {
+        authButton.hidden = true;
+        queryReports();
+      }
+    });
+
+  function queryReports() {
+    // Load the API from the client discovery URL.
+    gapi.client.load(DISCOVERY
+    ).then(function() {
+
+        // Call the Analytics Reporting API V4 batchGet method.
+        gapi.client.analyticsreporting.reports.batchGet( {
+          "reportRequests":[
+          {
+            "viewId":VIEW_ID,
+            "dateRanges":[
+              {
+                "startDate":"7daysAgo",
+                "endDate":"today"
+              }],
+            "metrics":[
+              {
+                "expression":"ga:sessions"
+              }]
+          }]
+        } ).then(function(response) {
+          console.log(response);
+        })
+        .then(null, function(err) {
+            // Log any errors.
+            console.log(err);
+        });
+    });
+  }
+
     </script>
 </html>
