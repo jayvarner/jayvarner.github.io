@@ -43,7 +43,8 @@
       immediate: useImmdiate
     };
 
-    gapi.auth.authorize(authData, function(response) {
+    function auth(){
+        gapi.auth.authorize(authData, function(response) {
       var authButton = document.getElementById('auth-button');
       if (response.error) {
         authButton.hidden = false;
@@ -52,7 +53,7 @@
         authButton.hidden = true;
         queryReports();
       }
-    });
+    });}
 
   function queryReports() {
     // Load the API from the client discovery URL.
@@ -83,6 +84,8 @@
         });
     });
   }
+
+  auth();
 
     </script>
 </html>
