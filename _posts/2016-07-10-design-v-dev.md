@@ -9,9 +9,8 @@ In this week’s adventures of a software engineer in a user experience design m
 
 The part of this week’s presentation that really bothered was the statement that:
 
-```One thing that we try to stress in the Kent UXD program is that the UX practitioner must be highly collaborative. In practice, that means that you and the product owner, and even members of the development team, would share in the performance of these various activities.```
+> One thing that we try to stress in the Kent UXD program is that the UX practitioner must be highly collaborative. In practice, that means that you and the product owner, and even members of the development team, would share in the performance of these various activities.
 
 I would say that every member of the product team must be highly collaborative. The part I take exception to is the snide tone in the recommendation to work with “even members of the development team.” The implication here seems to suggest a tactic of getting chummy with the product owner before the developer enters the picture. I just do not see how that approach can lead to a functional team. I do not see how a dysfunctional team can deliver a quality product.
 
 In my experience developing and delivering software, and in life, it is best to not start off in an adversarial posture. I’m looking forward to expanding on these thoughts in the coming weeks.
-
