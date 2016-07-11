@@ -23,6 +23,7 @@ html, body, .notepad-post-container, .notepad-post-header {
   color: white;
   text-transform: uppercase;
   letter-spacing: -0.0625rem; }
+
   .notepad-post-header-title a {
     color: white; }
     .notepad-post-header-title a:hover {
@@ -640,4 +641,8 @@ iframe {
     font-size: 10px;
     vertical-align: super;
     color: black;
+}
+.footnotes {
+    font: .5em;
+
 }
