@@ -5,6 +5,11 @@ date:   2016-07-10 08:23:41 -0500
 categories: school
 permalink:   /2016/07/010/design-dev
 ---
-This week, as a software engineer in a user experience design master's program felt more awkward than usual. This is only class number two, but I think this post will part one in series on an apparent divide between developers and designers.
+This week, as a software engineer in a user experience design master's program felt more awkward than usual. One presentation introduced me to this concept of “[sprint zero](https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=sprint+zero)”. I work on a team that practices agile and I’ve never heard of this. From the way it was presented; I gather that sprint zero describes an initial iteration when design happens in a silo. So, yeah, that doesn’t sound helpful. It does indeed violate the virtues of the agile process. I reject the notion that the agile process is developer centric. The best experience I’ve ever had working on a project was when the designer and I worked together on each feature. We often shared a keyboard where I would write some functional code for a feature and then he would add code to create the user experience. We were able to quickly produce a really great product. It was a luxury that I am no longer afforded. That’s why I decided to get an advanced degree in user experience *design*.
 
-One presentation introduced me to this concept of “[iteration zero](https://www.google.com/webhp?sourceid=chrome-instant&ion=1&espv=2&ie=UTF-8#q=iteration%20zero)”. I work on a team that practices agile and I’ve never heard of this. From what I gather, iteration zero describes an initial iteration when design happens. 
+The part of this week’s presentation that really bothered was was:
+> One thing that we try to stress in the Kent UXD program is that the UX practitioner must be highly collaborative. In practice, that means that you and the product owner, and even members of the development team, would share in the performance of these various activities.
+
+I generally agree with that statement. What I take exception to is the snide tone in the recommendation to work with “even members of the development team.” The implication here feels very Machiavellian[^mach] in that it seems to suggest a tactic of getting chummy with the product owner before the developer enters the picture. I just do not see how that approach can lead to a functional team. I do not see how a dysfunctional team can deliver a quality product.
+
+[^mach]:My undergrad degree is in political theory.
