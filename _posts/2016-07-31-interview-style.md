@@ -5,7 +5,7 @@ categories: [school]
 permalink: /2016/07/31/interview-style
 ---
 
-Designing software is basically designing a “choose your own adventure” game. Using software is often an adventure. The protagonist in the adventure is the user.
+Designing software is basically designing a “choose your own adventure” game. Using software is often an adventure. User experience designers need to remember that the protagonist in the adventure is the user.
 
 This is important to keep in mind when doing usability testing. It seems there is an industry standard in usability testing that the facilitator follow a script. As a developer, who has to go through the feature acceptance process, I know well that people will find fascinating ways (mis)use software. The designers will say the flow is based on usability testing. But still, the actual product owner will click on the craziest thing to complete a task. How was that missed in testing? Maybe the tests were bad?
 
