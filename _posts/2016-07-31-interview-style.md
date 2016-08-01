@@ -3,7 +3,6 @@ layout: post
 title:  Interview Style
 categories: [school]
 permalink: /2016/07/31/interview-style
-imagefeature: adventure.png
 ---
 
 Designing software is basically designing a “choose your own adventure” game(?). The emphasis is on the “your”; as in the person trying to navigate app. Usability tests, in the initial design phase, are focused on the journeys[site] of completing a task. The word journey is key. 
