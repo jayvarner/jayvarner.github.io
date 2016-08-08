@@ -12,7 +12,7 @@ So that picture above is the pained and dejected look on my face while watching 
 
 The joy of designing and developing software is the hope that someone else will find it useful and usable. Sure, you think that icon you drew screams *sync*. You have to be okay with the fact that everyone else thinks it says *recur*. You have to let go. It’s not about you. It’s about the user.
 
-All that said, watching video of users testing my designs painful. Here’s a clip of Bart Simpson reviewing the footage.
+All that said, watching video of users testing my designs was painful. Here’s a clip of Bart Simpson reviewing the footage.
 
 
 <iframe src="https://www.youtube.com/embed/1tFDsL_mwBY" frameborder="0" allowfullscreen></iframe>
