@@ -6,7 +6,7 @@ categories: school
 permalink:   /2016/08/07/letting-go
 imagefeature: hmmm.png
 ---
-User testing is painful. I've done it before. I know what to expect. It’s still painful. It’s just demoralizing to watch a user struggle with your design and be reminded of your of watching a parent try to insert a picture into a Word document.
+User testing is painful. I've done it before. I know what to expect. It’s still painful. It’s just demoralizing to watch a user struggle with your design and be reminded of watching a parent try to insert a picture into a Word document.
 
 
 
