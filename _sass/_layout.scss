@@ -254,7 +254,8 @@
   padding-top: 5em;
   margin-bottom: 2em;
   h2 {
-    margin-left: 5em;
+    margin: 0 auto 1em auto !important;
+    max-width: 76.25rem !important;
     font-size: 3em;
     color: #424242;
   }
@@ -262,7 +263,7 @@
     line-height: 1.5em;
   }
   img {
-    padding: 3em 25%;
+    padding: 0 25%;
     margin:0 auto;
   }
 
