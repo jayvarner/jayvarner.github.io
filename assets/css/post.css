@@ -623,8 +623,8 @@ html, body, .notepad-post-container, .notepad-post-header {
 }*/
 .post-template .row p, .page-template .row p {
     margin: 0 auto 2em auto !important;
-    max-width: 56.25rem !important;
-    font-size: 1.125rem !important;
+    max-width: 76.25rem !important;
+    font-size: 1.75rem !important;
 }
 @media only screen and (min-width: 58.125em) {
     .post-template .row, .page-template .row {
