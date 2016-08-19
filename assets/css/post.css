@@ -745,7 +745,7 @@ iframe {
 }
 
 .row.portfolio-main {
-  min-width: 90%;
+  min-width: 100%;
   border-right: solid 1px darkgrey;
   border-left: solid 1px darkgrey;
 }
