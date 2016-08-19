@@ -32,7 +32,7 @@ date:   2016-05-29 08:23:41 -0500
 
     <div class="row" style="background-color:lightgrey;">
         <div class="large-12">
-            <h2>The Evaluations (i.e. the sadness)</h2>
+            <h2>The Evaluations</h2>
             <p>
                 Blog pour-over literally bitters roof party. Keffiyeh ugh waistcoat vegan cornhole, pork belly artisan hoodie mustache chillwave freegan aesthetic iPhone seitan. Put a bird on it twee lumbersexual, tattooed PBR&B literally keytar authentic try-hard ugh
                 leggings. Direct trade typewriter flexitarian, gochujang williamsburg yr humblebrag aesthetic salvia post-ironic vinyl sustainable pour-over organic trust fund. IPhone knausgaard crucifix direct trade, franzen leggings 8-bit tilde paleo

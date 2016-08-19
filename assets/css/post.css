@@ -743,30 +743,3 @@ iframe {
 .footnotes {
     font: .5em;
 }
-.port-container {
-  font-size: 18px;
-}
-.port-container > .row {
-  min-width: 100%;
-}
-.port-container > .columns {
-  padding 0 1.em;
-}
-.row.portfolio-main {
-  min-width: 100%;
-  border-right: solid 1px darkgrey;
-  border-left: solid 1px darkgrey;
-}
-.row.portfolio-main > .header-part {
-  background-color: lightgrey;
-  width: 100%;
-  font-size: 3em;
-  padding: 1em 2em;
-  font-weight: 100;
-}
-.proto-nav{
-  background-image: url(../../images/navbar.png);
-  height: 40em;
-  background-repeat: no-repeat;
-  background-size: contain;
-}
