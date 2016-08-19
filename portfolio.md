@@ -15,9 +15,9 @@ date:   2016-05-29 08:23:41 -0500
             <strong>ReminderX</strong> had a great and simple to-do mobile app. They had hit a plateau with user adoption. ReminderX needed to expand its features without ruining the simplicity...and some other flowery language.
         </div>
     </div>
-    <div class="row">
+    <!-- <div class="row">
         <div class="large-12 columns proto-nav"></div>
-    </div>
+    </div> -->
     <div class="row">
         <div class="large-12">
             <h2>The Research</h2>
