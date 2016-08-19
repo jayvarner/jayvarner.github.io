@@ -745,8 +745,14 @@ iframe {
 }
 
 .row.portfolio-main {
+  min-width: 90%;
+  border-right: solid 1px darkgrey;
+  border-left: solid 1px darkgrey;
+}
+.row.portfolio-main > .header-part {
   background-color: lightgrey;
-  max-width: 90%;
+  width: 100%;
   font-size: 3em;
-  padding: 0 2em;
+  padding: 1em 2em;
+  font-weight: 100;
 }
