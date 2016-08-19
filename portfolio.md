@@ -30,7 +30,7 @@ date:   2016-05-29 08:23:41 -0500
         </div>
     </div>
 
-    <div class="row" style="background-color:lightgrey;">
+    <div class="row grey">
         <div class="large-12">
             <h2>The Evaluations</h2>
             <p>
@@ -54,7 +54,7 @@ date:   2016-05-29 08:23:41 -0500
     </div>
 
 
-    <div class="row" style="background-color:lightgrey;">
+    <div class="row grey">
         <div class="large-12">
             <h2>Next Time</h2>
             <p>
