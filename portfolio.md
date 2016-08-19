@@ -7,6 +7,7 @@ layout: portfolio
 chart: true
 imagefeature: desk.png
 date:   2016-05-29 08:23:41 -0500
+folio: true
 ---
 
 <div class="container port-container font-size:24px;">
