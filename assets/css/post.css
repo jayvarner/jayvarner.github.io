@@ -756,3 +756,9 @@ iframe {
   padding: 1em 2em;
   font-weight: 100;
 }
+.row.portfolio-main > .proto-nav{
+  background-image: url(../../images/navbar.png);
+  height: 40em;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
