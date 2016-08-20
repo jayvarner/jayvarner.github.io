@@ -6,16 +6,9 @@ chart: true
 imagefeature: desk.png
 date:   2016-05-29 08:23:41 -0500
 ---
-
+ReminderX had a great and simple to-do mobile app. They had hit a plateau with user adoption. ReminderX needed to expand its features without ruining the simplicity...and some other flowery language.
 <div class="container port-container font-size:24px;">
-    <div class="row portfolio-main">
-        <div class="small-4 columns header-part">
-            <strong>ReminderX</strong> had a great and simple to-do mobile app. They had hit a plateau with user adoption. ReminderX needed to expand its features without ruining the simplicity...and some other flowery language.
-        </div>
-    </div>
-    <!-- <div class="row">
-        <div class="small-12 columns proto-nav"></div>
-    </div> -->
+
     <div class="row">
         <div class="small-12">
         <img src="../images/flow.png" />

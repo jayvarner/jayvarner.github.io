@@ -4,6 +4,7 @@ title: Bringing Your Maps into Focus
 tags: [gdal, geospatial, gis, wms, webmapping]
 date: 2016-06-13 13:00:00
 authors: jayvarner
+imagefeature: atlanta_1928_sheet45.png
 note: '><em>NOTE</em>: This post was originally published at at <a href="http://emory-libraries.github.io/">http://emory-libraries.github.io/</a> and was written with my colleague <a href="http://digitalscholarship.emory.edu/about/people/slemons-megan.html">Megan Slemons</a>'
 ---
 Here at Emory, we have some pretty cool old [maps of Atlanta](http://www.digitalgallery.emory.edu/luna/servlet/view/all/where/Atlanta?sort=title%2Cpage_no_%2Ccity%2Cdate) that we wanted to share in a more interactive way. But when we tried, the maps looked like this:
