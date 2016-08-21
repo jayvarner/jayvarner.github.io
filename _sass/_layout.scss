@@ -267,9 +267,11 @@
     padding-left: 5%;
     padding-right: 5%;
   }
-  img {
+  img,
+  .caption {
     padding: 0 25%;
     margin:0 auto;
+    font-size: .75em;
   }
 
 }

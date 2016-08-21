@@ -11,7 +11,7 @@ ReminderX had a great and simple to-do mobile app. It had hit a plateau with use
 
     <div class="row">
         <div class="small-12">
-        <img src="../images/flow.png" />
+        <figure><img src="../images/flow.png" /></figure>
             <h2>The Research</h2>
             <p>
               My initial research revealed that moms with children younger than three are underserved by current to-do management apps. Designing features for this group's complex, evolving needs will ultimately produce features that help broader populations, as well.
@@ -40,7 +40,7 @@ ReminderX had a great and simple to-do mobile app. It had hit a plateau with use
 
     <div class="row grey">
         <div class="small-12">
-        <img src="../images/testing.png"/>
+        <figure><img src="../images/testing.png"/></figure>
             <h2>The Evaluations</h2>
             <p>
               After presenting my results to the project team at ReminderX, I took their feedback and mocked up a prototype. I then put that prototype in front of some moms and recorded their attempts to navigate the prototype. They showed me many things I got wrong. As painful as it was, I was so grateful to take that feedback and improve the designs.
@@ -54,12 +54,14 @@ ReminderX had a great and simple to-do mobile app. It had hit a plateau with use
 
     <div class="row">
         <div class="small-12">
-        <img src="../images/FlowAddCalendar.png" />
+        <figure><img src="../images/FlowAddCalendar.png" /></figure>
             <h2>Producing the Final Design</h2>
             <p>
               I reviewed the recordings and notes from the user testing and keyed in on the struggles the testers had with the navigation and Icon choices. Originally, I used <i class="material-icons">sync</i> to indicate syncing. This did not go over very well. I conferred with colleagues and in the final design used <i class="material-icons">share</i> to indicate sharing to an external calendar. The navigation was fixed by removing some ambiguity and adding icons and labels.
             </p>
         </div>
+        <figure><img src="../images/navbars.png"/></figure>
+        <div class="caption">Improvements to navigation based on testing. Testers had a hard time with finding settings via <i class="material-icons">more_vert</i>, so I changed it to <i class="material-icons">settings</i> and added labels.</div>
     </div>
 
 
