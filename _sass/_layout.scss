@@ -255,18 +255,30 @@
   margin-bottom: 2em;
   h2 {
     margin: 1em auto .5em auto !important;
-    max-width: 76.25rem !important;
+    padding-left: 5%;
+    padding-right: 5%;
+    min-width: 95% !important;
     font-size: 3em;
     color: #424242;
   }
   p {
     line-height: 1.5em;
+    min-width: 95%;
+    padding-left: 5%;
+    padding-right: 5%;
   }
   img {
     padding: 0 25%;
     margin:0 auto;
   }
 
+}
+
+@media only screen and (min-width: 40.063em){
+  .post-template .folio> div:not(.notepad-post-title) p:first-child {
+      font-size: 2em;
+      min-width: 80%;
+  }
 }
 
 .grey {
