@@ -69,7 +69,7 @@ ReminderX had a great and simple to-do mobile app. It had hit a plateau with use
         <div class="small-12">
             <h2>What I Learned</h2>
             <p>
-                I learned a lot about user testing. Despite the fact that I was testing very discrete tasks; when people felt lost, they just started tapping things. I didn't have a screen for everything.
+                I learned a lot about user testing. Despite the fact that I was testing very discrete tasks; when people felt lost, they just started tapping things. I didn't have a screen for everything. <!--Next time I will be better prepared and put more thought -->
             </p>
             <p>
               The biggest design lesson was to label icons. I do not care anymore about space. Always label icons.
