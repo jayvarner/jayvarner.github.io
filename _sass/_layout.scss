@@ -271,9 +271,11 @@
   .caption {
     padding: 0 25%;
     margin:0 auto;
-    font-size: .75em;
+    font-size: 1.25em;
   }
-
+  .caption {
+    max-width: 80em;
+  }
 }
 
 @media only screen and (min-width: 40.063em){

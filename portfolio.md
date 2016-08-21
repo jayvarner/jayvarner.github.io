@@ -57,11 +57,11 @@ ReminderX had a great and simple to-do mobile app. It had hit a plateau with use
         <figure><img src="../images/FlowAddCalendar.png" /></figure>
             <h2>Producing the Final Design</h2>
             <p>
-              I reviewed the recordings and notes from the user testing and keyed in on the struggles the testers had with the navigation and Icon choices. Originally, I used <i class="material-icons">sync</i> to indicate syncing. This did not go over very well. I conferred with colleagues and in the final design used <i class="material-icons">share</i> to indicate sharing to an external calendar. The navigation was fixed by removing some ambiguity and adding icons and labels.
+              I reviewed the recordings and notes from the user testing and keyed in on the struggles the testers had with the navigation and icon choices. Originally, I used <i class="material-icons">sync</i> to indicate syncing. This did not go over very well. I conferred with colleagues and in the final design used <i class="material-icons">share</i> to indicate sharing to an external calendar. The navigation was fixed by removing some ambiguity and adding icons and labels.
             </p>
         </div>
         <figure><img src="../images/navbars.png"/></figure>
-        <div class="caption">Improvements to navigation based on testing. Testers had a hard time with finding settings via <i class="material-icons">more_vert</i>, so I changed it to <i class="material-icons">settings</i> and added labels.</div>
+        <div class="caption">Improvements to navigation based on testing. Testers had a hard time with finding settings via <i class="material-icons">more_vert</i>. I changed it to <i class="material-icons">settings</i> and added labels.</div>
     </div>
 
 
@@ -70,8 +70,9 @@ ReminderX had a great and simple to-do mobile app. It had hit a plateau with use
             <h2>What I Learned</h2>
             <p>
                 I learned a lot about user testing. Despite the fact that I was testing very discrete tasks; when people felt lost, they just started tapping things. I didn't have a screen for everything.
-
-                The biggest design lesson was to label icons. I do not care anymore about space. Always label icons.
+            </p>
+            <p>
+              The biggest design lesson was to label icons. I do not care anymore about space. Always label icons.
             </p>
         </div>
     </div>
