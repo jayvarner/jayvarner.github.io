@@ -17,7 +17,7 @@ ReminderX had a great and simple to-do mobile app. It had hit a plateau with use
               My initial research revealed that moms with children younger than three are underserved by current to-do management apps. Designing features for this group's complex, evolving needs will ultimately produce features that help broader populations, as well.
             </p>
             <p>
-              I talked to moms with varying employment and relationship statuses. We talked about how they try to manage everything. So with my mind blown, I sat down and focused on two salient themes.  Preliminary workflows and wireframes were produced to give the ReminderX team an opportunity to give feedback and to guide discussion about the direction moving forward.
+              I talked to moms with varying employment and relationship statuses. We talked about how they try to manage everything. So with my mind blown, I sat down and focused on two salient themes; syncing with other shared calendars and the ability to delegate to-dos.  Preliminary workflows and wireframes were produced to give the ReminderX team an opportunity to give feedback and to guide discussion about the direction moving forward.
             </p>
         </div>
         <!-- <div class="row">
