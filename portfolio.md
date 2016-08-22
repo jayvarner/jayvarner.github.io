@@ -17,7 +17,7 @@ ReminderX had a great and simple to-do mobile app. It had hit a plateau with use
               My initial research revealed that moms with children younger than three are underserved by current to-do management apps. Designing features for this group's complex, evolving needs will ultimately produce features that help broader populations, as well.
             </p>
             <p>
-              I talked to moms with varying employment and relationship statuses. We talked about how they try to manage everything. So with my mind blown, I sat down and focused on two salient themes; syncing with other shared calendars and the ability to delegate to-dos.  Preliminary workflows and wireframes were produced to give the ReminderX team an opportunity to give feedback and to guide discussion about the direction moving forward.
+              I talked to moms with varying employment and relationship statuses. We talked about how they try to manage everything. So with my mind blown, I sat down and focused on two salient themes; syncing with other shared calendars and the ability to delegate to-dos.  Preliminary workflows and wireframes were produced to give the ReminderX team an opportunity to participate and give feedback and to discussion about the direction moving forward.
             </p>
         </div>
         <!-- <div class="row">
@@ -55,9 +55,9 @@ ReminderX had a great and simple to-do mobile app. It had hit a plateau with use
     <div class="row">
         <div class="small-12">
         <figure><img src="../images/FlowAddCalendar.png" /></figure>
-            <h2>Producing the Final Design</h2>
+            <h2>The Results: Producing the Final Design</h2>
             <p>
-              I reviewed the recordings and notes from the user testing and keyed in on the struggles the testers had with the navigation and icon choices. Originally, I used <i class="material-icons">sync</i> to indicate syncing. This did not go over very well. I conferred with colleagues and in the final design used <i class="material-icons">share</i> to indicate sharing to an external calendar. The navigation was fixed by removing some ambiguity and adding icons and labels.
+              I reviewed the recordings and notes from the user testing and keyed in on the struggles the testers had with the navigation and icon choices. Originally, I used <i class="material-icons">sync</i> to indicate syncing. That did not go over very well. I conferred with colleagues and in the final design has <i class="material-icons">share</i> to indicate sharing to an external calendar. The navigation was fixed by removing some ambiguity and adding icons and labels.
             </p>
         </div>
         <figure><img src="../images/navbars.png"/></figure>
