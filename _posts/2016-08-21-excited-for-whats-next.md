@@ -16,4 +16,4 @@ After college, I helped start a [non-profit bike shop](http://sopobikes.org/) (t
 
 The newer edition of “Don’t Make Me Think” is on the reading list for next semester. I’m excited to pick up there and develop an ability to create fantastic user experiences.
 
-[^art]: Yup, I wen't to high school when there were art classes.
+[^art]: Yup, I went to high school when there were art classes.
