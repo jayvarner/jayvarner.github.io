@@ -17,7 +17,7 @@ ReminderX had a great and simple to-do mobile app. It had hit a plateau with use
               My initial research revealed that moms with children younger than three are underserved by current to-do management apps. Designing features for this group's complex, evolving needs will ultimately produce features that help broader populations, as well.
             </p>
             <p>
-              I talked to moms with varying employment and relationship statuses. We talked about how they try to manage everything. So with my mind blown, I sat down and focused on two salient themes; syncing with other shared calendars and the ability to delegate to-dos.  Preliminary workflows and wireframes were produced to give the ReminderX team an opportunity to participate and give feedback and to discussion about the direction moving forward.
+              I talked to moms with varying employment and relationship statuses. We talked about how they try to manage everything. So, with my mind blown, I sat down and focused on two salient themes: syncing with other shared calendars and the ability to delegate to-dos.  Preliminary workflows and wireframes were produced to give the ReminderX team an opportunity to participate and give feedback about the direction moving forward.
             </p>
         </div>
         <!-- <div class="row">
@@ -43,7 +43,7 @@ ReminderX had a great and simple to-do mobile app. It had hit a plateau with use
         <figure><img src="../images/testing.png"/></figure>
             <h2>The Evaluations</h2>
             <p>
-              After presenting my results to the project team at ReminderX, I took their feedback and mocked up a prototype. I then put that prototype in front of some moms and recorded their attempts to navigate the prototype. They showed me many things I got wrong. As painful as it was, I was so grateful to take that feedback and improve the designs.
+              After presenting my results to the project team at ReminderX, I took their feedback and mocked up a prototype. I then put that prototype in front of several moms and recorded their attempts to navigate the prototype. They showed me many things I got wrong. As painful as it was, I was so grateful to take that feedback and improve the designs.
 
 
               <!-- put pencil to paper. I produced a prototype based on our discussions and put them in front of users to see what did work, and more importantly, what did not. After the user testing, I provided recordings of the testing sessions, and analysis of what worked and what did not. -->
@@ -57,7 +57,7 @@ ReminderX had a great and simple to-do mobile app. It had hit a plateau with use
         <figure><img src="../images/FlowAddCalendar.png" /></figure>
             <h2>The Results: Producing the Final Design</h2>
             <p>
-              I reviewed the recordings and notes from the user testing and keyed in on the struggles the testers had with the navigation and icon choices. Originally, I used <i class="material-icons">sync</i> to indicate syncing. That did not go over very well. I conferred with colleagues and in the final design has <i class="material-icons">share</i> to indicate sharing to an external calendar. The navigation was fixed by removing some ambiguity and adding icons and labels.
+              I reviewed the recordings and notes from the user testing and keyed in on the struggles the testers had with the navigation and icon choices. Originally, I used <i class="material-icons">sync</i> to indicate syncing. That did not go over very well. I conferred with colleagues and the final design has <i class="material-icons">share</i> to indicate sharing to an external calendar. The navigation was fixed by removing some ambiguity and adding icons and labels.
             </p>
         </div>
         <figure><img src="../images/navbars.png"/></figure>
@@ -69,7 +69,7 @@ ReminderX had a great and simple to-do mobile app. It had hit a plateau with use
         <div class="small-12">
             <h2>What I Learned</h2>
             <p>
-                I learned a lot about user testing. Despite the fact that I was testing very discrete tasks; when people felt lost, they just started tapping things. I didn't have a screen for everything. <!--Next time I will be better prepared and put more thought -->
+                I learned a lot about user testing. Despite the fact that I was testing very discrete tasks, when people felt lost, they just started tapping things. I didn't have a screen for everything. <!--Next time I will be better prepared and put more thought -->
             </p>
             <p>
               The biggest design lesson was to label icons. I do not care anymore about space. Always label icons.
