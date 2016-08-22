@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Excited for Whaht's Next
+title:  Excited for What's Next
 date:   2016-08-21
 categories: school
 permalink:   /2016/08/21/excited-for-whats-next
