@@ -741,6 +741,6 @@ iframe {
     vertical-align: super;
     color: black;
 }
-.footnotes {
-    font: .5em;
+.footnotes ol li p {
+  font-size: .75em !important;
 }
