@@ -646,7 +646,8 @@ pre {
     margin-bottom: 1.5625rem;
 }
 code {
-    font-size: 0.9375rem;
+    color: #eee;
+    background-color: #333;
     line-height: 1.2;
 }
 iframe {
