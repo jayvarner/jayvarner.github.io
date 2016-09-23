@@ -647,7 +647,8 @@ pre {
 }
 code {
     color: #eee;
-    background-color: #333;
+    background-color: #49483e;
+    font-size: .8e;
     line-height: 1.2;
 }
 iframe {
