@@ -10,12 +10,8 @@ author: jayvarner
 
 [^article]:Cristescu, Irina(2008) [Emotions in Human-Computer Interaction: The Role of Nonverbal Behavior in Interactive Systems](http://revistaie.ase.ro/content/46/S%20-%20Irina%20Cristescu.pdf)
 
-I found this article while searching for an article about reading facial expressions during usability testing. And yeah, it talks about that, but the above quote really poked me. Honestly, everything I have to say about this cannot fit in my allotted three paragraphs. So I'll just say this: usability should always imply accessibility. The interesting bit that Cristescu pushes is the that economic accessibility should also be considered.
+I found this article while researching facial expressions during usability testing. It talks about that, but the above quote really poked me. Honestly, everything I have to say about this cannot fit in my allotted three paragraphs. In general, what I really started thinking about is that usability should always imply accessibility. The interesting bit that Cristescu pushes is the that economic accessibility should be included.
 
-By making something usable and accessible, user experience designers are democratizing all these things. That's a solid reason to get out of bed. But the economic barrier is daunting. It requires a lot of changes. Like I said, these blog posts assignments don't give me enough room to flush this out. I will end with this quote from last's week's reading that stands in sharp contrast to this post's opening quote. The quote is justifying a screener question to preference people with high incomes.
+Technology has already begun to democratize areas like publishing and music distribution. The examples of the Arab Spring and BlackLivesMatter show the ability of people to connect across geographies and organize around their shared experiences. By making tools usable and accessible, user experience designers are essentially working to democratize everything they touch. That's a solid reason to get out of bed.
 
->The income requirement will help participants stay away from focusing on
-cost (the more affluent seem able to pay better attention to what they really
-need—or want).[^jerks]
-
-[^jerks]:Schroeder, Brittan, Spool [Recruiting Without Fear](https://learn.kent.edu/bbcswebdav/pid-5850162-dt-content-rid-53408933_1/courses/22314.201680/Modules/recruiting_without_fear.pdf)...There are just so many things wrong with this statement.
+But the economic barrier is daunting. It requires a lot of changes. There is still a digital divide and access to these tools are still limited to those with resources. How can usability designers help? It is a worthwhile challenge and something I want to develop more in my studies. Like I said, these blog posts assignments don't give me enough room to flush this out.
