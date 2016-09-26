@@ -10,4 +10,6 @@ author: jayvarner
 
 [^article]:Cristescu, Irina(2008) [Emotions in Human-Computer Interaction: The Role of Nonverbal Behavior in Interactive Systems](http://revistaie.ase.ro/content/46/S%20-%20Irina%20Cristescu.pdf)
 
-I found this article while searching for article about reading facial expressions during usability testing. And yeah, it talks about that, but the above quote really got to me. 
+I found this article while searching for an article about reading facial expressions during usability testing. And yeah, it talks about that, but the above quote really poked me. Honestly, everything I have to say about this cannot fit in my allotted three paragraphs. So I'll just say this: usability should always imply accessibility. The interesting bit that Cristescu pushes is the that economic accessibility should also be considered.
+
+By making technology, and everyday things, usable and accessible, user experience designers are democratizing all these things. That's a solid reason to get out of bed. But the economic barrier is daunting. It requires a lot of changes. But why would I want to spend my time building something that isn't for everyone?
