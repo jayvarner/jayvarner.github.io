@@ -12,4 +12,10 @@ author: jayvarner
 
 I found this article while searching for an article about reading facial expressions during usability testing. And yeah, it talks about that, but the above quote really poked me. Honestly, everything I have to say about this cannot fit in my allotted three paragraphs. So I'll just say this: usability should always imply accessibility. The interesting bit that Cristescu pushes is the that economic accessibility should also be considered.
 
-By making technology, and everyday things, usable and accessible, user experience designers are democratizing all these things. That's a solid reason to get out of bed. But the economic barrier is daunting. It requires a lot of changes. But why would I want to spend my time building something that isn't for everyone?
+By making something usable and accessible, user experience designers are democratizing all these things. That's a solid reason to get out of bed. But the economic barrier is daunting. It requires a lot of changes. Like I said, these blog posts assignments don't give me enough room to flush this out. I will end with this quote from last's week's reading that stands in sharp contrast to this post's opening quote. The quote is justifying a screener question to preference people with high incomes.
+
+>The income requirement will help participants stay away from focusing on
+cost (the more affluent seem able to pay better attention to what they really
+need—or want).[^jerks]
+
+[^jerks]:Schroeder, Brittan, Spool [https://learn.kent.edu/bbcswebdav/pid-5850162-dt-content-rid-53408933_1/courses/22314.201680/Modules/recruiting_without_fear.pdf](Recruiting Without Fear)
