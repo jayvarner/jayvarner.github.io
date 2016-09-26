@@ -18,4 +18,4 @@ By making something usable and accessible, user experience designers are democra
 cost (the more affluent seem able to pay better attention to what they really
 need—or want).[^jerks]
 
-[^jerks]:Schroeder, Brittan, Spool [https://learn.kent.edu/bbcswebdav/pid-5850162-dt-content-rid-53408933_1/courses/22314.201680/Modules/recruiting_without_fear.pdf](Recruiting Without Fear)
+[^jerks]:Schroeder, Brittan, Spool [Recruiting Without Fear](https://learn.kent.edu/bbcswebdav/pid-5850162-dt-content-rid-53408933_1/courses/22314.201680/Modules/recruiting_without_fear.pdf)...There are just so many things wrong with this statement.
