@@ -19,8 +19,6 @@ It is only interesting in that, in reality, the “Department of Doing” is ess
 
 My concern is opening a business is the DOD’s focus. It would have a better impact if “The goal is not to grant a property tax expansion; it’s to keep people in their homes.”
 
-Regardless, the fact that a city, even if it is in Florida, is taking a human-centered approach to bureaucracy is something to follow.
+Regardless, the fact that a city is taking a human-centered approach to bureaucracy is something to follow.
 
 [^fluxd]:[https://www.fastcodesign.com/3065107/slicker-city/how-one-florida-city-is-reinventing-itself-with-ux-design](https://www.fastcodesign.com/3065107/slicker-city/how-one-florida-city-is-reinventing-itself-with-ux-design)
-
-
