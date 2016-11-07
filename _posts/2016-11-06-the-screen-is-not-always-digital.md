@@ -11,4 +11,14 @@ Wherever you fall on the ideology spectrum, I think it is safe to say no one fin
 
 "But upon talking to more Gainesville citizens, the group learned that what they really wanted was a guide—someone to lead them through the often-confusing process"
 
+It is inspiring because it shows that UXD is relevant [beyond screens](http://www.npr.org/2016/11/06/500678100/the-art-of-the-vote-who-designs-the-ballots-we-cast) and [doors](https://www.youtube.com/watch?v=yY96hTb8WgI).
+
+It is only interesting in that, in reality, the “Department of Doing” is essentially a front-end interface for a very messy API.
+
 "The goal is not to get a permit; it’s to open a business."
+
+My concern is opening a business is the DOD’s focus. It would have a better impact if “The goal is not to grant a property tax expansion; it’s to keep people in their homes.”
+
+Regardless, the fact that a city, even if it is in Florida, is taking a human-centered approach to bureaucracy is something to follow.
+
+
