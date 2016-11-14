@@ -8,4 +8,4 @@ note: ">The things we make reflect the things we value.
 
 -- [Cliff Kuang](https://www.fastcodesign.com/3065565/what-responsibility-does-design-bear-for-the-trump-era)"
 ---
-//
+//!
