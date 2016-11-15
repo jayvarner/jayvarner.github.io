@@ -14,4 +14,4 @@ This post from Cliff Kuang *[Trump Exposes a Fatal Flaw in User-Friendly Design]
 
 That is a fantastic point. There is a lot of blame to go around for the current state of our politics. [Misinformation is high in the running](https://youtu.be/-rSDUsMwakI?t=10m58s). [FaceBook is one of the many cesspools](https://www.americanpressinstitute.org/publications/reports/survey-research/how-americans-get-news/).
 
-The  
+I've often looked at UXD as a democratizing force. I mean, the goal is to make technology and information accessible to more people. Turns out accessible is only the start; and not all information is created equal. That's a big a tricky statement.
