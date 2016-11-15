@@ -12,4 +12,6 @@ This post from Cliff Kuang *[Trump Exposes a Fatal Flaw in User-Friendly Design]
 
 >Should a link from hategroup.net really look the same as that of whitehouse.gov?
 
-That is a really good point. 
+That is a fantastic point. There is a lot of blame to go around for the current state of our politics. [Misinformation is high in the running](https://youtu.be/-rSDUsMwakI?t=10m58s). [FaceBook is one of the many cesspools](https://www.americanpressinstitute.org/publications/reports/survey-research/how-americans-get-news/).
+
+The  
