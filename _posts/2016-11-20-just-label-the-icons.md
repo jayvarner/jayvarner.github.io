@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Just <i class="fa fa-tag" aria-hidden="true"></i> the Icons
+title: Just <i class='fa fa-tag' aria-hidden=true></i> the Icons
 tags: [school]
 date: 2016-11-20 13:00:00
 authors: jayvarner
