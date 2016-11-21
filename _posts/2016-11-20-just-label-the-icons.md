@@ -32,4 +32,4 @@ So, I’m almost done burning this whole thing down for...I lost track of the nu
 
 Sorry, that was way longer than 2-3 paragraphs. I’ve been wanting to write this up for a while. This ended up being a good start. Anyway, here is the current iteration:
 
-![maybe this will work](/images/ATLMaps__Projects_and_Smooth_as_Butter__Achieving_60_FPS_Animations_with_CSS3_–_OutSystems_Experts_–_Medium.png)
+![maybe this will work](/images/ATLMaps__Projects.png)
