@@ -30,6 +30,6 @@ Better...the product owners liked it. I felt good. It was not a long honeymoon w
 
 So, I’m almost done burning this whole thing down for...I lost track of the number of times. In theory, I’ve known the importance of prototyping before writing code. Now that I’ve practiced it; I’m a full believer.
 
-Sorry, that was way longer than 2-3 paragraphs. I’ve been wanting to write this up for a while. This ended up being a good start. Anyway, here is the current iteration:
+Sorry, that was longer than 2-3 paragraphs. I’ve been wanting to write this up for a while. This ended up being a good start. Anyway, here is the current iteration:
 
 ![maybe this will work](/images/ATLMaps__Projects.png)
