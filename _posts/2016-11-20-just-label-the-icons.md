@@ -28,7 +28,7 @@ So I made:
 
 Better...the product owners liked it. I felt good. It was not a long honeymoon with myself and this iteration. Through my studies and advice/encourgement from my classmates, I had tools and talking points to get time to ask actual humans who would use the platform.
 
-So, I’m almost done burning this whole thing down for...I lost track of the number of times. In theory, I’ve known the importance of prototyping before writing code. After practicing it, I’ve internalized it.
+So, I’m almost done burning this whole thing down for...I lost track of the number of times. In theory, I’ve known the importance of prototyping before writing code. Now that I’ve practiced it; I’m a full believer.
 
 Sorry, that was way longer than 2-3 paragraphs. I’ve been wanting to write this up for a while. This ended up being a good start. Anyway, here is the current iteration:
 
