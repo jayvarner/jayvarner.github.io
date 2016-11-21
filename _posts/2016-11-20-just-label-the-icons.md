@@ -26,9 +26,9 @@ So I made:
 ![an attempt](/images/atlmaps1.gif)
 
 
-Better...product owners liked it and I felt...good. However, the more I studied and the more I followed rabbit holes and suggestions from classmates. Most importantly, I started asking people outside the project if they could figure out how to do various things.
+Better...the product owners liked it. I felt good. It was not a long honeymoon with myself and this iteration. Through my studies and advice/encourgement from my classmates, I had tools and talking points to get time to ask actual humans who would use the platform.
 
-So, I’m almost done burning this whole thing down for...I lost track of the number of times. I’ve learned the lessons of these first few classes in my course work and my day work. I’m not sure if I’d really internalized it without the course work.
+So, I’m almost done burning this whole thing down for...I lost track of the number of times. In theory, I’ve known the importance of prototyping before writing code. After practicing it, I’ve internalized it.
 
 Sorry, that was way longer than 2-3 paragraphs. I’ve been wanting to write this up for a while. This ended up being a good start. Anyway, here is the current iteration:
 
