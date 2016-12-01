@@ -14,7 +14,9 @@ No one in "charge" is checking? Responsive design isn't factored into the featur
 
 Those are indefensible reasons.
 
-The fact of the matter is, coding responsive design is still pretty tricky. There are no agreed upon breakpoints. We're all just guessing. The frameworks, eg Bootstrap, Foundation, etc, are fine until you need to do something interesting. People never really use them correctly because these frameworks are so verbose[^bourbon]
+The fact of the matter is, coding responsive design is still pretty tricky. There are no agreed upon breakpoints. We're all just guessing. The frameworks, eg Bootstrap, Foundation, etc, are fine until you need to do something interesting. Furthermore, people never really use them correctly because these frameworks are so verbose[^bourbon].
+
+I guess the point I'm laboring to make is; I look forward to better standards and tooling. It's not hard to build a responsive design. The frustration is that it feels like the design is always already out of date.
 
 [^bourbon]:[http://burbon.io](Bourbon) is a step in the right direction.
 
