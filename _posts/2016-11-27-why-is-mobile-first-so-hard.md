@@ -11,12 +11,13 @@ authors: jayvarner
 The readings for the past two weeks on mobile testing really made me look at the responsiveness of my current projects. I'm aware of the best practices. At best, I'm doing a pretty mediocre job. I know better. So why mediocre?
 
 Reasons, from where I sit, as a developer
+
 - No one "in charge" is checking
 - In story writing and estimation, coding multiple layouts is never taken into account
 - Product owners and management don't want to admit the expense
 - Designers and developers are lazy
 
-None of those reasons are defensible. 
+None of those reasons are defensible.
 
 
 \* Don't get me started of making stuff accessible. We should really be talking about accessible first. I need to do better.
