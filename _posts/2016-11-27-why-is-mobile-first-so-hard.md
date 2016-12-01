@@ -14,6 +14,9 @@ No one in "charge" is checking? Responsive design isn't factored into the featur
 
 Those are indefensible reasons.
 
+The fact of the matter is, coding responsive design is still pretty tricky. There are no agreed upon breakpoints. We're all just guessing. The frameworks, eg Bootstrap, Foundation, etc, are fine until you need to do something interesting. People never really use them correctly because these frameworks are so verbose[^bourbon]
+
+[^bourbon]:[http://burbon.io](Bourbon) is a step in the right direction.
 
 \* More importantly, I want to study more about making stuff accessible. We should really be talking about accessible first. I need to do better.
 
