@@ -13,8 +13,6 @@ OK, maybe this is a little over the top, but reading *[Selling Usability](https:
 
 I want to learn how to make useful things easy and accessible though research informed design. I'd get an MBA if I wanted to learn how to play people.
 
-It's the end of the semester, it got cold, and I'm felling a bit punchy. But seriously, my takeaways from *Selling Usability* were:
+It's the end of the semester, it got cold, and I'm felling a bit punchy. But seriously, my takeaways from *Selling Usability* were: 1) Don’t speak in UX terms 2) Couch everything in MBA speak 3) If you say anything, it better be about improving the bottom line
 
-* Don’t speak in UX terms
-* Couch everything in MBA speak
-* If you say anything, it better be about improving the bottom line
+![fuck it](https://media.giphy.com/media/ythClGhgW14ti/giphy.gif)
