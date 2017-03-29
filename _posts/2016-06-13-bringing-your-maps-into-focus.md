@@ -42,7 +42,7 @@ We use `gdalwarp` to reproject, resample, add internal tiling, and compress[^few
 [^fewer]: In previous talks and workshops, we presented a three-step process where we did the tiling and compressed the image using `gdal_translate`. While writing this post we realized a way to combine these processes with `gdalwarp`.
 
 #### Reproject
-When you georeference a scanned map, you select a [projection](https://en.wikipedia.org/wiki/Map_projection). For most GIS needs, you will want to use the projection appropriate for the chunk of Earth your map covers. However, for displaying maps on the web, you want to use EPSG:3857[^whcihcode]. To reproject a GeoTIFF you can use the `gdalwarp` command:
+When you georeference a scanned map, you select a [projection](https://en.wikipedia.org/wiki/Map_projection). For most GIS needs, you will want to use the projection appropriate for the chunk of Earth your map covers. However, for displaying maps on the web, you want to use EPSG:3857[^whcihcode].
 
 [^whcihcode]:There is confusion between EPSG:3857 and EPSG:4326. For displaying raster data using something like Leaflet, OpenLayers, etc. 3857 will result in a much clearer image. Here are two links that helped us understand. [http://gis.stackexchange.com/a/48952](http://gis.stackexchange.com/a/48952) and [http://www.faqoverflow.com/gis/48949.html](http://www.faqoverflow.com/gis/48949.html)
 
