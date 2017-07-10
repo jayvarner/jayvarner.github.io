@@ -7,7 +7,7 @@ authors: jayvarner
 ---
 For years, I have been working in an agile setting. The product owners write user stories, I deliver the story, and the product owner accepts or rejects the story.
 
-Use stories, on a micro scale, describe a testable action and are written in the format of
+User stories, on a micro scale, describe a testable action and are written in the format of
 
 ```As a <role>, I want <goal/desire> so that <benefit>``` [^userstory]
 
