@@ -13,3 +13,5 @@ However, I have never sat down to wire frame an entire app at once. That is what
 Unfortunately, the answer was often yes...yes I do. I would try one more time to simplify the interaction. Forcing this question to be asked and answered really showed me a sneaky way wire framing has immeasurable value.
 
 [^why]: I am one half of a software engineering team. There is no design team. So design falls on me. Design is my weak area. That is why I am seeking a masters in UXD.
+
+*Cover image adapted from the the amazing [Hyperbole and a Half](http://hyperboleandahalf.blogspot.com/2010/06/this-is-why-ill-never-be-adult.html)*
