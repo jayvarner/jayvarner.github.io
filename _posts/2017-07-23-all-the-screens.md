@@ -14,4 +14,4 @@ Unfortunately, the answer was often yes...yes I do. I would try one more time to
 
 [^why]: I am one half of a software engineering team. There is no design team. So design falls on me. Design is my weak area. That is why I am seeking a masters in UXD.
 
-*Cover image adapted from the the amazing [Hyperbole and a Half](http://hyperboleandahalf.blogspot.com/2010/06/this-is-why-ill-never-be-adult.html)*
+*Cover image adapted from the amazing [Hyperbole and a Half](http://hyperboleandahalf.blogspot.com/2010/06/this-is-why-ill-never-be-adult.html)*
