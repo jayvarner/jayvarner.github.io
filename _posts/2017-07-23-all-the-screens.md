@@ -4,6 +4,7 @@ title: All the Screens!
 tags: [school]
 date: 2017-07-23 13:00:00
 authors: jayvarner
+imagefeature: allthescreens.png
 ---
 I have always found wire framing important. As the developer, not the designer, I do them all the time when thinking through new features. No one ever gives me wire frames prior to development.[^why]
 
