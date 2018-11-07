@@ -5,17 +5,18 @@ tags: [gdal, geospatial, gis, wms, webmapping]
 date: 2016-06-13 13:00:00
 authors: jayvarner
 imagefeature: atlanta_1928_sheet45.png
-note: '><em>NOTE</em>: This post was originally published at at <a href="http://emory-libraries.github.io/">http://emory-libraries.github.io/</a> and was written with my colleague <a href="http://digitalscholarship.emory.edu/about/people/slemons-megan.html">Megan Slemons</a>'
+note: '><em>NOTE</em>: This post was originally published at at <a href="http://ecds.github.io/">https://ecds.github.io/2016-06-13-bringing-your-maps-into-focus/</a> and was written with my colleague <a href="http://digitalscholarship.emory.edu/about/people/slemons-megan.html">Megan Slemons</a>'
 ---
+
 Here at Emory, we have some pretty cool old [maps of Atlanta](http://www.digitalgallery.emory.edu/luna/servlet/view/all/where/Atlanta?sort=title%2Cpage_no_%2Ccity%2Cdate) that we wanted to share in a more interactive way. But when we tried, the maps looked like this:
 
-<a class="jsbin-embed" href="http://jsbin.com/howitu/1/embed?output&height=500px">JS Bin on jsbin.com</a>
-<script src="http://static.jsbin.com/js/embed.min.js?3.35.12"></script>
+<p data-height="500" data-theme-id="0" data-slug-hash="eExoyO" data-default-tab="result" data-user="jayvarner" data-embed-version="2" data-pen-title="eExoyO" class="codepen">See the Pen <a href="https://codepen.io/jayvarner/pen/eExoyO/">eExoyO</a> by Jay Varner (<a href="https://codepen.io/jayvarner">@jayvarner</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
 After a good bit of research, lots of trial and error, and working with our colleagues [Eric Willoughby](http://library.gsu.edu/profile/eric-willoughby/) at Georgia State University and [Amanda Henley](https://twitter.com/gislibrarian) at the University of North Carolina, we came up with a process that gave us this:
 
-<a class="jsbin-embed" href="http://jsbin.com/gekulo/2/embed?output&height=500px">JS Bin on jsbin.com</a>
-<script src="http://static.jsbin.com/js/embed.min.js?3.35.12"></script>
+<p data-height="500" data-theme-id="0" data-slug-hash="brzJLx" data-default-tab="result" data-user="jayvarner" data-embed-version="2" data-pen-title="brzJLx" class="codepen">See the Pen <a href="https://codepen.io/jayvarner/pen/brzJLx/">brzJLx</a> by Jay Varner (<a href="https://codepen.io/jayvarner">@jayvarner</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
 
 ## What We Did
@@ -28,8 +29,8 @@ Finally, like the examples above, we used [Leaflet](http://leafletjs.com/) to di
 ## What We Did *Wrong*
 Our first problem was that the GeoTIFF is a high resolution image. In the first example on this page, we were squeezing a 5,931 x 5,779 pixel image (the full resolution) into a 326 x 276 pixel box (for the zoom level shown above). There’s just too much data to display clearly. Notice that if you zoom all the way in to our original example, the map looks great.
 
-<a class="jsbin-embed" href="http://jsbin.com/jinure/embed?output&height=500px">JS Bin on jsbin.com</a>
-<script src="http://static.jsbin.com/js/embed.min.js?3.35.12"></script>
+<p data-height="500" data-theme-id="0" data-slug-hash="OjdGvE" data-default-tab="result" data-user="jayvarner" data-embed-version="2" data-pen-title="OjdGvE" class="codepen">See the Pen <a href="https://codepen.io/jayvarner/pen/OjdGvE/">OjdGvE</a> by Jay Varner (<a href="https://codepen.io/jayvarner">@jayvarner</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
 
 Our other problem was that we used a coordinate system that is inappropriate for web display. Tiled base maps that are provided by organizations like [OpenSteetMap](http://www.openstreetmap.org/about) are based on [EPSG:3857](http://spatialreference.org/ref/sr-org/7483/), aka [WGS 84  Web Mercator](https://en.wikipedia.org/wiki/Web_Mercator#EPSG:3857).
 
@@ -84,9 +85,9 @@ $ gdaladdo --config GDAL_TIFF_OVR_BLOCKSIZE XXX -r average </path/to/new.tif> le
 ~~~
 
 ##### Example
-~~~shell
+```shell
 $ gdaladdo --config GDAL_TIFF_OVR_BLOCKSIZE 256 -r average processed/atlanta_1928_sheet45.tif 2 4 8 16 32
-~~~
+```
 
 ## Automation
 Obviously if you have more than two maps to process, running these commands on each will get real old real fast. Fortunately, since GDAL is a command line tool, we can automate the whole process. There are wrappers for GDAL in many languages: [Python](https://pcjericks.github.io/py-gdalogr-cookbook/), [PHP](https://github.com/geonef/php5-gdal), [.Net](https://gdalnet.codeplex.com/), [Ruby](https://github.com/zhm/gdal-ruby) (though the Ruby gem is no longer maintained and not updated for GDAL 2), etc.
